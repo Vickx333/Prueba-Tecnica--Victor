@@ -17,7 +17,7 @@
 - HTML
 - CSS3
 - JavaScript
-- Método Fetch
+-- Método Fetch
 
 ## Dejo Link de la Prueba en un Hosting Gratuito
 
