@@ -1,28 +1,31 @@
-## Prueba tecnica 
-#_Organizar elemento de lista con una function_
--espe archivo está el en index dentro de la consola y tambien está pintado en la pantalla del navegador
+## Prueba Técnica
 
--los dos ejercicios están conectados por una etiquet 
+### Organizar Elementos de Lista con una Función
 
-# API Rick and Morty
--guarde a todos los prsonajes de la api en un solo array para poder iterar sobre cada uno de ellso con dos funciones:
--la primera funcion toma toma todo los personajes y devuelve un arreglo con todos los personajes.
--la segunda funcion pinta el personaje de forma aleatoria en la card.
-##Tecnologias
--html
--css3
--js  
--metodo fetch
+- El archivo se encuentra en el índice dentro de la consola y también está representado en la pantalla del navegador.
 
-##dejo linck de la prueba en un hosting gratuito
--lista
-https://65ca46ce105ed511c4a2ce4b--graceful-blancmange-cbe16e.netlify.app/
+- Los dos ejercicios están conectados por una etiqueta.
 
--API Rick and Morty
-https://65ca46ce105ed511c4a2ce4b--graceful-blancmange-cbe16e.netlify.app/rick
+### API Rick and Morty
 
+- Guardé a todos los personajes de la API en un solo array para poder iterar sobre cada uno de ellos con dos funciones:
+  - La primera función toma todos los personajes y devuelve un arreglo con todos ellos.
+  - La segunda función pinta el personaje de forma aleatoria en la tarjeta.
 
+## Tecnologías
 
-### sin mas por el momento me despido esperando porder formar parte de su equipo
-#gracias por la oportunidad
-# Prueba-Tecnica--Victor
+- HTML
+- CSS3
+- JavaScript
+- Método Fetch
+
+## Dejo Link de la Prueba en un Hosting Gratuito
+
+- [Lista](https://65ca46ce105ed511c4a2ce4b--graceful-blancmange-cbe16e.netlify.app/)
+- [API Rick and Morty](https://65ca46ce105ed511c4a2ce4b--graceful-blancmange-cbe16e.netlify.app/rick)
+
+Sin más por el momento, me despido esperando poder formar parte de su equipo.
+
+Gracias por la oportunidad.
+
+Victor - Prueba Técnica
