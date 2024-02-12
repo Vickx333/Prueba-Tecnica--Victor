@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Buhid&display=swap');
+
+
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+:root {
+     --fuente1: 'Protest Strike', sans-serif;
+     --fuente2: 'Noto Sans Buhid', sans-serif;
+}
+
+body {
+     background-color: rgb(46, 47, 46);
+}
+
+.header {
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+     width: 100%;
+     height: max-content;
+     padding: 20px;
+     box-shadow: 0px 9px 12px black;
+     border-radius: 0px 0px 20px 20px;
+     background-color: rgb(22, 22, 22);
+     color: gold;
+}
+
+.nameApp {
+     padding: 10px;
+     background-image: linear-gradient(45deg, rgb(50, 254, 50), rgb(251, 255, 0));
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     animation: gradienteRotate 5s ease infinite;
+     animation: linear;
+     font-family: var(--fuente1);
+
+}
+
+@keyframes gradienteRotate {
+     0% {
+          background-image: linear-gradient(0deg, rgb(50, 254, 50), rgb(251, 255, 0));
+     }
+
+     100% {
+          background-image: linear-gradient(360deg, rgb(251, 255, 0), rgb(50, 254, 50));
+     }
+
+}
+
+
+
+.nameApp h1 {
+     color: transparent;
+     font-size: 4rem;
+
+
+
+}
+
+.logo {
+     /* border: 2px solid red; */
+     width: 100px;
+     height: 100px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     border-radius: 100px;
+     border-radius: 100%;
+     overflow: hidden;
+}
+
+.logo a {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.logo img {
+     width: 100%;
+}
+
+.main {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 40px;
+     font-family: var(--fuente2);
+     font-weight: 700;
+     font-size: 1.3rem;
+
+}
+
+/* carta */
+.card {
+     width: 350px;
+     height: max-content;
+     border: 1px solid rgb(213, 251, 246);
+     /* box-shadow: 0px 0px 20px 1px rgba(172, 255, 47, 0.683), inset 0px 0px 20px 1px rgba(172, 255, 47, 0.671); */
+     border-radius: 30px;
+     padding: 30px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     gap: 20px;
+     position: relative;
+     transition: box-shadow .5s ease;
+}
+
+
+
+.imagen {
+     display: inline-block;
+     /* border: 2px solid green; */
+     width: 250px;
+     border-radius: 100%;
+     height: 250px;
+     margin: 0 autos;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     overflow: hidden;
+     transition: all .5s ease;
+     animation: luz 20s ease infinite;
+     animation-timing-function: linear;
+
+
+}
+
+.imagen img {
+     width: 100%;
+
+}
+
+@keyframes luz {
+     0% {
+          box-shadow: 0px 0px 12px 1px rgb(12, 83, 247), -5px -5px 10px 2px red;
+     }
+
+     25% {
+          box-shadow: 0px 0px 12px 1px rgb(247, 20, 12), -5px 5px 10px 2px rgb(234, 255, 0);
+
+     }
+
+     50% {
+          box-shadow: 0px 0px 12px 1px rgb(12, 192, 247), 5px 5px 10px 2px rgb(204, 255, 0);
+
+     }
+
+     75% {
+          box-shadow: 0px 0px 12px 1px rgb(196, 12, 247), 5px -5px 10px 2px rgb(208, 255, 0);
+
+     }
+
+     100% {
+          box-shadow: 0px 0px 12px 1px rgb(247, 12, 212), -5px -5px 10px 2px red;
+
+     }
+}
+
+.infoContainer {
+     /* border: 2px solid red; */
+     width: 100%;
+     height: 250px;
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+     flex-direction: column;
+
+
+}
+
+.listaInfo {
+     width: 100%;
+     /* border: 2px solid red; */
+     padding: 10px;
+}
+
+#universe {
+     font-size: 16px;
+}
+
+li {
+     color: aqua;
+}
+
+ul .li {
+     color: aliceblue;
+}
+
+#name {
+     color: whitesmoke;
+     font-size: 2rem;
+     text-align: center;
+     font-family: var(--fuente1);
+}
+
+.circlestatus {
+     display: inline-block;
+     width: 20px;
+     height: 20px;
+     /* background-color: red; */
+     border-radius: 100%;
+}
+
+.statusText {
+     color: whitesmoke;
+     font-family: var(--fuente1);
+     font-weight: 100;
+}
+
+.gender {
+     /* color: whitesmoke; */
+     font-family: var(--fuente1);
+
+}
+
+.controls button {
+     width: 70px;
+     height: 70px;
+     padding: 9px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     border-radius: 100%;
+     border: 1px solid rgb(246, 251, 199);
+     box-shadow: 0px 0px 12px 1px rgb(128, 255, 0);
+     background-color: transparent;
+     color: azure;
+     font-family: var(--fuente1);
+
+}
+
+.lista {
+     color: whitesmoke;
+     position: absolute;
+     right: 30px;
+     bottom: 100px;
+}
+
+
+
+
+@media screen and (max-width:800px) {
+     .header {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          /* flex-direction: column; */
+          text-align: center;
+          padding: 5px;
+     }
+
+     .logo {
+          width: 60px;
+          height: 60px;
+          border: 2px solid green;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+     }
+
+     .logo a {
+          display: block;
+          width: 100%;
+     }
+
+     .nameApp h1 {
+          width: 97%;
+          font-size: 1.3rem;
+
+     }
+
+     .main {
+          width: 95%;
+          /* background-color: red; */
+          padding: 5px;
+          margin: 0 auto;
+     }
+
+     #card {
+          width: 100%;
+          height: 85vh;
+          margin: 0 auto;
+          padding: 10px;
+
+     }
+
+     .imagen {
+          box-shadow: 0px 9px 12px 2px black;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+     }
+
+     .inf1 {
+          width: 100%;
+          height: max-content;
+          margin: 0 auto;
+          /* border: 2px solid firebrick; */
+          padding: 20px;
+
+     }
+
+     ul {
+          padding: 10px 5px;
+     }
+
+     .inf1 ul li {
+          /* border: 2px solid goldenrod; */
+
+          list-style: none;
+     }
+
+     ul .li {
+          color: whitesmoke;
+     }
+
+     #name {
+          width: 100%;
+          height: max-content;
+          /* background-color: red; */
+
+     }
+
+     .lista {
+          position: relative;
+          left: 10px;
+          bottom: 5px;
+          display: block;
+     }
+
+     .universe {
+          font-size: 14px;
+     }
+}
