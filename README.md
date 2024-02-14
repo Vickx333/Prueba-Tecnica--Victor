@@ -7,7 +7,9 @@
 
 - El archivo se encuentra en el índice dentro de la consola y también está pintado en la pantalla del navegador.
 
-- Los dos ejercicios están conectados por una etiqueta.{<a>ejercico 1</a>}
+- Los dos ejercicios están conectados por una etiqueta.
+
+- {a}
 
 ### API Rick and Morty
 
