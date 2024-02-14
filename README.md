@@ -9,7 +9,7 @@
 
 - Los dos ejercicios están conectados por una etiqueta.
 
-{a}
+
 
 ### API Rick and Morty
 
